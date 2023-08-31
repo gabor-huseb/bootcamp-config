@@ -100,7 +100,7 @@ bootstrap:
 
           ns-nodes:
               - node-name: uc:001:oee
-                decription: Overall Equipment Effectivness
+                description: Overall Equipment Effectivness
 
                 shared-access:
                     read:
