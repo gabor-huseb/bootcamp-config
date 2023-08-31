@@ -68,7 +68,7 @@ bootstrap:
                 idp-source-name: bootcamp-10-test-all-read # i.e. bootcamp-01-test-all-read
 
       # Support multiple CDF Projects, like dev/test/prod in one config.
-        - cdf-project: cdf-bootcamp-10-prod # i.e. bootcamp-01-test
+        - cdf-project: bootcamp-10-prod # i.e. bootcamp-01-test
           mappings:
               - cdf-group: cdf:root
                 idp-source-id: f6bd323d-a8b9-4972-a5d8-72b2a38c9873
