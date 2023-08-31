@@ -67,6 +67,18 @@ bootstrap:
                 idp-source-id: ab2b1ded-ae03-4c8a-a5b1-f395a8e3ddeffff # for the AAD Group to be matched to cdf-group
                 idp-source-name: bootcamp-10-test-all-read # i.e. bootcamp-01-test-all-read
 
+      # Support multiple CDF Projects, like dev/test/prod in one config.
+        - cdf-project: cdf-bootcamp-10-prod # i.e. bootcamp-01-test
+          mappings:
+              - cdf-group: cdf:root
+                idp-source-id: f6bd323d-a8b9-4972-a5d8-72b2a38c9873
+                idp-source-name: greenfield-10-prod-admin
+              - cdf-group: cdf:all:owner
+                idp-source-id: 88bf0553-169a-4bb9-9c1f-c17f04ef060f # for the AAD Group to be matched to cdf-group
+                idp-source-name: greenfield-10-prod-all-owner # i.e. bootcamp-01-test-all-owner
+              - cdf-group: cdf:all:read
+                idp-source-id: 996681e5-37eb-4b16-8f91-5fa5c58d68a3 # for the AAD Group to be matched to cdf-group
+                idp-source-name: greenfield-10-prod-all-read # i.e. bootcamp-01-test-all-read
 
     namespaces:
         # Typical config will have a namespace for data sources ("src") and a namespace for use cases ("uc")
