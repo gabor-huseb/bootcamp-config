@@ -58,7 +58,7 @@ bootstrap:
         - cdf-project: bootcamp-10-test # i.e. bootcamp-01-test
           mappings:
               - cdf-group: cdf:root
-                idp-source-id: c9470ea3-c83e-44e1-9b08-d4b67369ec8a
+                idp-source-id: c9480ea3-c83e-44e1-9b08-d4b67369ec8a
                 idp-source-name: greenfield-10-test-admin
               - cdf-group: cdf:all:owner
                 idp-source-id: 50009152-a027-4f7f-9391-63b38cbf902a # for the AAD Group to be matched to cdf-group
@@ -72,7 +72,6 @@ bootstrap:
               - cdf-group: cdf:uc:001:read
                 idp-source-id: ee93bfa9-f153-4447-9a4b-417ead641e29
                 idp-source-name: greenfield-10-test-uc-001-oee-read
-
 
       # Support multiple CDF Projects, like dev/test/prod in one config.
         - cdf-project: bootcamp-10-prod # i.e. bootcamp-01-test
@@ -107,7 +106,7 @@ bootstrap:
 
           ns-nodes:
               - node-name: uc:001:oee
-                description: Overall Equipment Effectiveness
+                description: Overall Equipment Effectivness
 
                 shared-access:
                     read:
