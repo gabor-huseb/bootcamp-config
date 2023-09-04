@@ -86,7 +86,7 @@ bootstrap:
               - cdf-group: cdf:all:read
                 idp-source-id: 996681e5-37eb-4b16-8f91-5fa5c58d68a3 # for the AAD Group to be matched to cdf-group
                 idp-source-name: greenfield-10-prod-all-read # i.e. bootcamp-01-test-all-read
-              - cdf-group: cdf:uc:001:owner
+              - cdf-group: cdf:uc:001:owner # The owner and read access groups for the use case data for OEE
                 idp-source-id: a28b0429-d7a3-40f2-ab50-220a0d10eba0
                 idp-source-name: greenfield-10-prod-uc-001-oee-owner
               - cdf-group: cdf:uc:001:read
